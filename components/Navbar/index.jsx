@@ -25,6 +25,8 @@ const Index = () => {
 							alt='Logo'
 							width={277}
 							height={60}
+							priority
+							layout='fixed'
 						/>
 					</a>
 				</Link>
