@@ -1,4 +1,4 @@
-@mixin textHighlight($height: 0.25em, $bottom: -8px, $color: #f46f4f, $width: 80%) {
+@mixin textHighlight($height: 0.25em, $bottom: -8px, $color: #f46f4f, $width: 20%) {
 	content: '';
 	position: absolute;
 	width: $width;
@@ -11,10 +11,6 @@
 	right: 0;
 	left: 0;
 	margin: auto;
-}
-
-.navbar {
-	// padding: 1em;
 }
 
 .logo {
@@ -32,6 +28,11 @@
 }
 
 .active {
+	&:hover {
+		a.link {
+			text-decoration: none;
+		}
+	}
 	.link {
 		color: #f46f4f;
 	}
@@ -97,6 +98,7 @@ nav.menuBtn {
 				background-color: #f46f4f;
 				.link {
 					color: #fff;
+					text-decoration: none;
 				}
 			}
 		}
@@ -104,6 +106,12 @@ nav.menuBtn {
 
 	li {
 		display: block;
+
+		&:hover {
+			a {
+				text-decoration: underline;
+			}
+		}
 		// background-color: #f46f4f;
 		a {
 			// background-color: red;
@@ -155,21 +163,26 @@ nav.menuBtn {
 		display: none !important;
 	}
 
-	.navbar {
-		.nav {
-			ul.navMenu {
-				.menuCta {
-					position: relative;
-					border: 2px solid #f46f4f;
-					border-radius: 50px;
-					padding: 0.5rem 1.25rem;
-					box-sizing: content-box;
+	.nav {
+		ul.navMenu {
+			position: relative;
+			li.menuCta {
+				position: relative;
+				border: 2px solid #f46f4f;
+				border-radius: 50px;
+				padding: 0.5rem 1.25rem;
+				box-sizing: content-box;
+				bottom: unset;
+				height: unset;
 
-					&:hover {
-						background-color: #f46f4f;
-						a {
-							color: #fff;
-						}
+				a.link {
+					position: unset;
+				}
+
+				&:hover {
+					background-color: #f46f4f;
+					a {
+						color: #fff;
 					}
 				}
 			}
@@ -239,6 +252,13 @@ nav.menuBtn {
 				}
 
 				.active {
+					&:hover {
+						a.link {
+							&::before {
+								@include textHighlight(0.25em, -8px, #f46f4f, 80%);
+							}
+						}
+					}
 					a.link {
 						display: block;
 						position: relative;
