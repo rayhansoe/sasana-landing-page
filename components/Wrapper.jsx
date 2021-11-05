@@ -14,6 +14,8 @@ const Wrapper = ({ children, type }) => {
 					? styles.callBackWrapper
 					: type === 'clientWrapper'
 					? styles.clientWrapper
+					: type === 'servicesWrapper'
+					? styles.servicesWrapper
 					: ''
 			}`}>
 			{children}
