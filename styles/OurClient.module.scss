@@ -1,3 +1,7 @@
+.section {
+	margin: 20rem 0;
+}
+
 .cardList {
 	display: flex;
 	align-items: center;
@@ -32,9 +36,11 @@
 	font-size: 39px;
 	line-height: 120%;
 	text-align: center;
+	z-index: 1;
 }
 
 .myText {
+	z-index: 1;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;

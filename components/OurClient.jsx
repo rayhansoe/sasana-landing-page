@@ -6,7 +6,7 @@ const Wrapper = dynamic(() => import('../components/Wrapper'))
 
 const OurClient = () => {
 	return (
-		<section>
+		<section className={styles.section}>
 			<Wrapper type='clientWrapper'>
 				<h1 className={styles.headingX1}>Klien Hebat Sasana Digital</h1>
 				<p className={styles.myText}>
