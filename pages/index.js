@@ -10,6 +10,7 @@ const Services = dynamic(() => import('../components/Services'))
 const Activity = dynamic(() => import('../components/Activity'))
 const OurClient = dynamic(() => import('../components/OurClient'))
 const WhySection = dynamic(() => import('../components/WhySection'))
+const CourseSection = dynamic(() => import('../components/CourseSection'))
 
 export default function Home() {
 	return (
@@ -19,6 +20,7 @@ export default function Home() {
 			<WhySection />
 			<OurClient />
 			<Activity />
+			<CourseSection />
 			<CallBack />
 		</>
 	)
