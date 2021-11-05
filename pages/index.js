@@ -5,8 +5,9 @@ import dynamic from 'next/dynamic'
 
 const Hero = dynamic(() => import('../components/Hero'))
 const CallBack = dynamic(() => import('../components/CallBack'))
-const OurClient = dynamic(() => import('../components/OurClient'))
 const Services = dynamic(() => import('../components/Services'))
+const Activity = dynamic(() => import('../components/Activity'))
+const OurClient = dynamic(() => import('../components/OurClient'))
 
 import Link from 'next/link'
 
@@ -16,6 +17,7 @@ export default function Home() {
 			<Hero />
 			<Services />
 			<OurClient />
+			<Activity />
 			<CallBack />
 		</>
 	)
