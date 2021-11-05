@@ -19,8 +19,6 @@ const WhySection = () => {
 						<div className={styles.image}>
 							<Image
 								src='/images/Image Carousel.png'
-								width={622}
-								height={651}
 								alt='image carousel placeholder'
 								layout='fill'
 							/>

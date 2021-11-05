@@ -10,7 +10,7 @@ const Card = ({ src, width, height, alt, href, service, title, text, layout, typ
 			{type === 'activity' ? (
 				<div className={`${styles.card} ${layout && styles.active} ${type && styles.activity}`}>
 					<div className={styles.image}>
-						<Image src={src} width={width} height={height} alt={alt} layout='fill' />
+						<Image src={src} alt={alt} layout='fill' />
 					</div>
 					<div className={styles.desc}>
 						<h5 className={styles.headingX5}>{title}</h5>

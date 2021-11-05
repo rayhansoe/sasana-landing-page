@@ -25,8 +25,6 @@ const CourseSection = () => {
 							<div className={styles.image}>
 								<Image
 									src='/images/COVER EVENT FOR WEB-02.png'
-									width={358}
-									height={232}
 									alt='thumbnail sasana tokopedia course'
 									layout='fill'
 								/>
@@ -39,37 +37,19 @@ const CourseSection = () => {
 							<div className={styles.courseDetail}>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='clock icon'
-											src='/icon/clock.svg'
-										/>
+										<Image layout='fill' alt='clock icon' src='/icon/clock.svg' />
 									</div>
 									<p className={styles.textLight}>27-Aug-2021 | 12.00 AM</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='map pin icon'
-											src='/icon/map-pin.svg'
-										/>
+										<Image layout='fill' alt='map pin icon' src='/icon/map-pin.svg' />
 									</div>
 									<p className={styles.textLight}>UDEMY</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='sasana icon'
-											src='/icon/sasana-icon.svg'
-										/>
+										<Image layout='fill' alt='sasana icon' src='/icon/Frame 49.png' />
 									</div>
 									<p className={styles.textLight}>By Sasana Digital</p>
 								</div>
@@ -82,8 +62,6 @@ const CourseSection = () => {
 							<div className={styles.image}>
 								<Image
 									src='/images/COVER EVENT FOR WEB-03.png'
-									width={358}
-									height={232}
 									alt='thumbnail sasana shopee course'
 									layout='fill'
 								/>
@@ -96,37 +74,19 @@ const CourseSection = () => {
 							<div className={styles.courseDetail}>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='clock icon'
-											src='/icon/clock.svg'
-										/>
+										<Image layout='fill' alt='clock icon' src='/icon/clock.svg' />
 									</div>
 									<p className={styles.textLight}>27-Aug-2021 | 12.00 AM</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='map pin icon'
-											src='/icon/map-pin.svg'
-										/>
+										<Image layout='fill' alt='map pin icon' src='/icon/map-pin.svg' />
 									</div>
 									<p className={styles.textLight}>UDEMY</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='sasana icon'
-											src='/icon/sasana-icon.svg'
-										/>
+										<Image layout='fill' alt='sasana icon' src='/icon/Frame 49.png' />
 									</div>
 									<p className={styles.textLight}>By Sasana Digital</p>
 								</div>
@@ -140,8 +100,6 @@ const CourseSection = () => {
 								<div className={styles.info}>BELUM TERSEDIA</div>
 								<Image
 									src='/images/COVER EVENT FOR WEB-01.png'
-									width={358}
-									height={232}
 									alt='thumbnail digital marketing course'
 									layout='fill'
 								/>
@@ -154,37 +112,19 @@ const CourseSection = () => {
 							<div className={styles.courseDetail}>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='clock icon'
-											src='/icon/clock.svg'
-										/>
+										<Image layout='fill' alt='clock icon' src='/icon/clock.svg' />
 									</div>
 									<p className={styles.textLight}>27-Aug-2021 | 12.00 AM</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='map pin icon'
-											src='/icon/map-pin.svg'
-										/>
+										<Image layout='fill' alt='map pin icon' src='/icon/map-pin.svg' />
 									</div>
 									<p className={styles.textLight}>UDEMY</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image
-											layout='fill'
-											width='32px'
-											height='32px'
-											alt='sasana icon'
-											src='/icon/Frame 49.png'
-										/>
+										<Image layout='fill' alt='sasana icon' src='/icon/Frame 49.png' />
 									</div>
 									<p className={styles.textLight}>By Sasana Digital</p>
 								</div>
