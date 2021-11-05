@@ -28,6 +28,14 @@
 	z-index: 9;
 }
 
+.clientWrapper {
+	flex-direction: column;
+	justify-content: space-between;
+	overflow-y: visible;
+	z-index: 9;
+	gap: 0.8rem;
+}
+
 @media only screen and (min-width: 1000px) {
 	.container {
 		width: 100%;
