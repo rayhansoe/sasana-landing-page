@@ -3,13 +3,15 @@ import Image from 'next/image'
 import dynamic from 'next/dynamic'
 // import styles from '../styles/Home.module.scss'
 
-const CallBack = dynamic(() => import('../components/CallBack.jsx'))
+const CallBack = dynamic(() => import('../components/CallBack'))
+const OurClient = dynamic(() => import('../components/OurClient'))
 
 import Link from 'next/link'
 
 export default function Home() {
 	return (
 		<>
+			<OurClient />
 			<CallBack />
 		</>
 	)
