@@ -34,7 +34,7 @@ const CallBack = () => {
 							<a className={styles.link}>
 								<p>Training Bersama Kami </p>
 								<Image
-									style={{ width: '24px', height: '24px' }}
+									className={styles.arrow}
 									src='/icon/right-arrow.svg'
 									alt='right arrow'
 									width={24}
