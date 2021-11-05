@@ -1,10 +1,21 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+import dynamic from 'next/dynamic'
+// import styles from '../styles/Home.module.scss'
+
+const CallBack = dynamic(() => import('../components/CallBack.jsx'))
 
 import Link from 'next/link'
 
 export default function Home() {
+	return (
+		<>
+			<CallBack />
+		</>
+	)
+}
+
+export function Other() {
 	return (
 		<div className={styles.container}>
 			<Head>
