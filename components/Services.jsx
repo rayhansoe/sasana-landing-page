@@ -1,11 +1,9 @@
-import Link from 'next/link'
-import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import styles from '../styles/Services.module.scss'
 
-const Button = dynamic(() => import('./Button'))
 const Wrapper = dynamic(() => import('./Wrapper'))
 const Card = dynamic(() => import('./Card'))
+const CardList = dynamic(() => import('./CardList'))
 
 const Services = () => {
 	return (
@@ -16,7 +14,7 @@ const Services = () => {
 					<p className={styles.myText}>
 						Mulai perjalanan bisnis Anda dalam bertransformasi melalui 3 layanan utama kami.
 					</p>
-					<div className={styles.cardList}>
+					<CardList>
 						<Card
 							src='/images/LOGO MARKETING STUDIO FINAL FIX-01 1.png'
 							width={276}
@@ -49,7 +47,7 @@ const Services = () => {
 							service='UI Design | Graphic Design | Social Media'
 							href='#'
 						/>
-					</div>
+					</CardList>
 				</div>
 			</Wrapper>
 		</section>
