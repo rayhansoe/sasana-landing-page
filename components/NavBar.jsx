@@ -1,12 +1,10 @@
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
-import styles from './NavBar.module.scss'
+import styles from '../styles/NavBar.module.scss'
 import { useState } from 'react'
 
-import cn from 'classnames'
-
-const Wrapper = dynamic(() => import('../Wrapper'))
+const Wrapper = dynamic(() => import('./Wrapper'))
 
 const Index = () => {
 	const [isOpen, setIsOpen] = useState(() => false)
