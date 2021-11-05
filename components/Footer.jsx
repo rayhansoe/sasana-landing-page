@@ -82,7 +82,7 @@ const Footer = () => {
 								</ul>
 							</div>
 							<div className={styles.midContent}>
-								<h5 className={styles.headingX5}>Contact Us</h5>
+								<h5 className={styles.headingX5}>CONTACT US</h5>
 								<div className={styles.location}>
 									<p>PT. Sasana Solusi Digital</p>
 									<p>Office No.3 Point LAB Co-Working Space</p>
