@@ -1,12 +1,14 @@
-import Link from 'next/link'
-import dynamic from 'next/dynamic'
-import Image from 'next/image'
-import styles from '../styles/NavBar.module.scss'
 import { useState } from 'react'
+
+import Link from 'next/link'
+import Image from 'next/image'
+import dynamic from 'next/dynamic'
+
+import styles from '../styles/NavBar.module.scss'
 
 const Wrapper = dynamic(() => import('./Wrapper'))
 
-const Index = () => {
+const NavBar = () => {
 	const [isOpen, setIsOpen] = useState(() => false)
 
 	const openNavBar = () => setIsOpen(curr => !curr)
@@ -86,4 +88,4 @@ const Index = () => {
 	)
 }
 
-export default Index
+export default NavBar
