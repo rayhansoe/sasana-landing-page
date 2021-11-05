@@ -30,3 +30,44 @@
 		color: #f46f4f;
 	}
 }
+
+.outline {
+	background-color: unset;
+	box-shadow: unset;
+	border: 1px solid #f46f4f;
+	padding: 12px 16px;
+	border-radius: 8px;
+
+	.link {
+		color: #f46f4f;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 150%;
+	}
+}
+
+.course {
+	box-shadow: unset;
+	padding: 10px 24px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.disable {
+	box-shadow: unset;
+	background-color: #c7c7c7;
+	padding: 10px 24px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	cursor: not-allowed;
+
+	.link {
+		color: #fff;
+		cursor: not-allowed;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
