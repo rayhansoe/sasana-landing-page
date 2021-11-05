@@ -8,14 +8,14 @@ const CallBack = dynamic(() => import('../components/CallBack'))
 const Services = dynamic(() => import('../components/Services'))
 const Activity = dynamic(() => import('../components/Activity'))
 const OurClient = dynamic(() => import('../components/OurClient'))
-
-import Link from 'next/link'
+const WhySection = dynamic(() => import('../components/WhySection'))
 
 export default function Home() {
 	return (
 		<>
 			<Hero />
 			<Services />
+			<WhySection />
 			<OurClient />
 			<Activity />
 			<CallBack />
