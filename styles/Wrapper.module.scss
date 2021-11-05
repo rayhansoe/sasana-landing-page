@@ -1,5 +1,4 @@
 .container {
-	// position: relative;
 	display: flex;
 	justify-content: space-between;
 	padding: 20px 1.5rem;
@@ -13,7 +12,6 @@
 }
 
 .navWrapper {
-	// background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(250, 250, 250, 0.4));
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(250, 250, 250, 0));
 	backdrop-filter: blur(30px);
@@ -22,8 +20,6 @@
 
 .footerWrapper {
 	justify-content: center;
-	align-items: center;
-	flex-grow: 1;
 }
 
 .callBackWrapper {
@@ -44,7 +40,6 @@
 @media only screen and (min-width: 1000px) {
 	.container {
 		width: 100%;
-		// gap: 1em;
 		padding: 20px 1.8rem;
 	}
 }

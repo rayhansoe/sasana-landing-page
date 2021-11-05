@@ -103,8 +103,6 @@ const Footer = () => {
 					</div>
 					<div className={styles.copyRight}>Copyright 2021 - PT Sasana Solusi Digital</div>
 				</div>
-				{/* <div className={styles.midContent}>Middle Content</div>
-				<div className={styles.rightContent}>Right Content</div> */}
 			</Wrapper>
 		</footer>
 	)

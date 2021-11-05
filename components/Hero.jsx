@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import styles from '../styles/Hero.module.scss'

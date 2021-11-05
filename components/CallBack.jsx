@@ -11,26 +11,29 @@ const CallBack = () => {
 	return (
 		<Section>
 			<Wrapper type='callBackWrapper'>
-				<div className={styles.backgroundImage}>
-					<Image
-						src='/images/Segera mulai perjalanan bisnis anda.png'
-						alt='image background component'
-						width={1920}
-						height={335}
-						priority
-					/>
-				</div>
-				<div className={styles.content}>
-					<div className={styles.leftContent}>
-						<h2 className={styles.headingX2}>
-							Segera mulai perjalanan bisnis Anda dalam bertransformasi.
-						</h2>
-						<p className={styles.myText}>
-							Sasana Digital akan dengan senang hati melayani Anda dan membantu bisnis Anda
-							bertumbuh di tengah ketatnya persaingan bisnis digital saat ini.
-						</p>
+				<div className={styles.contents}>
+					<div className={styles.backgroundImage}>
+						<Image
+							src='/images/Segera mulai perjalanan bisnis anda.png'
+							alt='image background component'
+							width={1920}
+							height={335}
+							priority
+							layout='fixed'
+						/>
 					</div>
-					<Button href='#'>Training Bersama Kami</Button>
+					<div className={styles.content}>
+						<div className={styles.leftContent}>
+							<h2 className={styles.headingX2}>
+								Segera mulai perjalanan bisnis Anda dalam bertransformasi.
+							</h2>
+							<p className={styles.myText}>
+								Sasana Digital akan dengan senang hati melayani Anda dan membantu bisnis Anda
+								bertumbuh di tengah ketatnya persaingan bisnis digital saat ini.
+							</p>
+						</div>
+						<Button href='#'>Training Bersama Kami</Button>
+					</div>
 				</div>
 			</Wrapper>
 		</Section>

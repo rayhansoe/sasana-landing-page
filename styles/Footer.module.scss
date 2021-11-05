@@ -4,8 +4,6 @@
 	width: 100%;
 	padding-top: 94px;
 	padding-bottom: 60px;
-	// position: absolute;
-	// bottom: 0;
 }
 
 .profile {
@@ -28,27 +26,27 @@
 	gap: 87px;
 }
 
-h3.headingX3,
-p.myText,
-h5.headingX5,
+.headingX3,
+.myText,
+.headingX5,
 .location {
 	color: #fff;
 }
 
-h3.headingX3 {
+.headingX3 {
 	font-size: 25px;
 	font-weight: 700;
 	line-height: 28.5px;
 	text-align: start;
 }
 
-p.myText {
+.myText {
 	font-size: 18px;
 	line-height: 28px;
 	text-align: justify;
 	font-weight: normal;
 }
-h5.headingX5 {
+.headingX5 {
 	font-weight: 700;
 }
 

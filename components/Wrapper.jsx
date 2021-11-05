@@ -1,5 +1,3 @@
-import dynamic from 'next/dynamic'
-
 import styles from '../styles/Wrapper.module.scss'
 
 const Wrapper = ({ children, type }) => {

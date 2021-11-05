@@ -17,10 +17,6 @@
 	z-index: 9;
 }
 
-.logo {
-	transform: scale(1);
-}
-
 .navBg {
 	background: linear-gradient(
 		180deg,
@@ -53,7 +49,7 @@
 	display: none;
 }
 
-nav.menuBtn {
+.menuBtn {
 	display: block;
 
 	display: flex;
@@ -71,11 +67,9 @@ nav.menuBtn {
 	background-color: rgb(247, 247, 247);
 	min-height: 100vh;
 	border: 1px solid #f46f4f;
-	// padding: 1em;
 	width: 80%;
-	// margin-top: 3em;
 
-	ul.navMenu {
+	.navMenu {
 		display: flex;
 		flex-direction: column;
 		align-self: stretch;
@@ -86,7 +80,6 @@ nav.menuBtn {
 			padding: 1rem 0;
 			position: absolute;
 			bottom: 580px;
-			// background-color: #f46f4f;
 			border: 4px solid #f46f4f;
 			width: 100%;
 			left: 0;
@@ -95,7 +88,6 @@ nav.menuBtn {
 			.link {
 				position: absolute;
 				left: 12px;
-				// color: #f46f4f;
 			}
 
 			&:hover {
@@ -116,11 +108,7 @@ nav.menuBtn {
 				text-decoration: underline;
 			}
 		}
-		// background-color: #f46f4f;
 		a {
-			// background-color: red;
-			// padding: 0.5rem 0;
-			// width: max-content;
 			text-decoration: none;
 			display: block;
 			font-size: 1.2rem;
@@ -134,14 +122,9 @@ nav.menuBtn {
 
 .mobileMenuExit {
 	cursor: pointer;
-	// float: right;
 	margin: 0.5em;
 	filter: invert(1);
 }
-
-// .nav {
-// 	display: flex;
-// }
 
 @media only screen and (min-width: 620px) {
 	.nav {
@@ -203,15 +186,6 @@ nav.menuBtn {
 		max-height: unset;
 	}
 
-	.aLogo {
-		width: 277px;
-		height: 60px;
-		min-width: unset;
-		min-height: unset;
-		max-width: unset;
-		max-height: unset;
-	}
-
 	.logo {
 		width: 277px;
 		height: 60px;
@@ -222,19 +196,13 @@ nav.menuBtn {
 	}
 
 	.navbar {
-		// background: var(--bgColor1);
 		display: flex;
-		// height: 6.25em;
-		// padding: 20px auto;
-		// flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
 
 		.nav {
-			// display: flex;
 			justify-content: space-between;
 			background: none;
-			// // width: 100%;
 			height: auto;
 			padding: 0;
 			position: relative;
@@ -244,7 +212,6 @@ nav.menuBtn {
 			.navMenu {
 				display: flex;
 				flex-direction: row;
-				// justify-content: space-between;
 				gap: 20px;
 				align-items: center;
 				margin-top: unset;
@@ -252,6 +219,7 @@ nav.menuBtn {
 				.menuCta {
 					a.link {
 						padding: 0;
+						color: #fff;
 					}
 				}
 
@@ -282,15 +250,4 @@ nav.menuBtn {
 			}
 		}
 	}
-	// .nav {
-	// 	// display: flex;
-	// 	justify-content: space-between;
-	// 	background: none;
-	// 	// // width: 100%;
-	// 	height: auto;
-	// 	padding: 0;
-	// 	position: relative;
-	// 	display: block;
-	// 	display: contents;
-	// }
 }

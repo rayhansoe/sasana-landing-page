@@ -20,7 +20,6 @@ const NavBar = () => {
 				<Link className={styles.linkLogo} href='/'>
 					<a>
 						<Image
-							className={styles.logo}
 							src='/images/logo-sasana-digital.png'
 							alt='Logo'
 							width={277}

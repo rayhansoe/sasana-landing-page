@@ -2,7 +2,6 @@ import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import styles from '../styles/Course.module.scss'
 
-const Card = dynamic(() => import('./Card'))
 const Button = dynamic(() => import('./Button'))
 const Wrapper = dynamic(() => import('./Wrapper'))
 const CardList = dynamic(() => import('./CardList'))
