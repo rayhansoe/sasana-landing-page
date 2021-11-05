@@ -3,9 +3,10 @@ import Image from 'next/image'
 import dynamic from 'next/dynamic'
 // import styles from '../styles/Home.module.scss'
 
+const Hero = dynamic(() => import('../components/Hero'))
 const CallBack = dynamic(() => import('../components/CallBack'))
 const OurClient = dynamic(() => import('../components/OurClient'))
-const Hero = dynamic(() => import('../components/Hero'))
+const Services = dynamic(() => import('../components/Services'))
 
 import Link from 'next/link'
 
@@ -13,6 +14,7 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
+			<Services />
 			<OurClient />
 			<CallBack />
 		</>
