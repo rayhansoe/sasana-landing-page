@@ -5,12 +5,14 @@ import dynamic from 'next/dynamic'
 
 const CallBack = dynamic(() => import('../components/CallBack'))
 const OurClient = dynamic(() => import('../components/OurClient'))
+const Hero = dynamic(() => import('../components/Hero'))
 
 import Link from 'next/link'
 
 export default function Home() {
 	return (
 		<>
+			<Hero />
 			<OurClient />
 			<CallBack />
 		</>
