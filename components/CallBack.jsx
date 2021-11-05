@@ -5,6 +5,7 @@ import styles from '../styles/CallBack.module.scss'
 
 const Section = dynamic(() => import('./Section'))
 const Wrapper = dynamic(() => import('./Wrapper'))
+const Button = dynamic(() => import('./Button'))
 
 const CallBack = () => {
 	return (
@@ -29,20 +30,7 @@ const CallBack = () => {
 							bertumbuh di tengah ketatnya persaingan bisnis digital saat ini.
 						</p>
 					</div>
-					<div className={styles.rightContent}>
-						<Link href='#'>
-							<a className={styles.link}>
-								<p>Training Bersama Kami </p>
-								<Image
-									className={styles.arrow}
-									src='/icon/right-arrow.svg'
-									alt='right arrow'
-									width={24}
-									height={24}
-								/>
-							</a>
-						</Link>
-					</div>
+					<Button href='#'>Training Bersama Kami</Button>
 				</div>
 			</Wrapper>
 		</Section>
