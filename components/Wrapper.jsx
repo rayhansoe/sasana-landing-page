@@ -10,6 +10,8 @@ const Wrapper = ({ children, type }) => {
 					? styles.navWrapper
 					: type === 'footerWrapper'
 					? styles.footerWrapper
+					: type === 'callBackWrapper'
+					? styles.callBackWrapper
 					: ''
 			}`}>
 			{children}
