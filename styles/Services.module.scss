@@ -1,0 +1,85 @@
+.section {
+	margin: 20rem 0;
+	width: 100%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.headingX1 {
+	color: #1d3463;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 39px;
+	line-height: 120%;
+	text-align: center;
+	z-index: 1;
+}
+
+.headingX5 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #1d3463;
+	line-height: 28.75px;
+	font-style: normal;
+}
+
+.headingX6 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #1d3463;
+	line-height: 28px;
+	font-style: normal;
+}
+
+.myText {
+	z-index: 1;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #1d3463;
+	text-align: justify;
+}
+
+.cardList {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.card {
+	position: relative;
+	padding: 20px;
+	border: 1px solid #b9b9b9;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: flex-start;
+}
+
+.v2 {
+	color: #f46f4f;
+}
+
+.imageContainer {
+	position: relative;
+	width: 313px;
+	height: 204px;
+	border-radius: 10px;
+	background-color: #f3f4f6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
