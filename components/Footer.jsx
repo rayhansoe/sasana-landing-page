@@ -13,13 +13,13 @@ const Footer = () => {
 				<div className={styles.content}>
 					<div className={styles.profile}>
 						<Image
-							src='/images/logo-sasana-putih-07.png'
+							src='/images/logo-sasana-putih-07.webp'
 							alt='logo sasana putih'
 							width={341}
 							height={54}
 							layout='fixed'
 							placeholder='blur'
-							blurDataURL='/images/logo-sasana-putih-07.png'
+							blurDataURL='/images/logo-sasana-putih-07.webp'
 							priority
 						/>
 						<div className={styles.footerContent}>
