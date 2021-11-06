@@ -23,13 +23,12 @@ export default function Hero() {
 				</div>
 				<div className={styles.rightContent}>
 					<Image
-						src='/images/hero-image.png'
+						src='/images/hero-image.webp'
 						alt='hero image'
 						width={961}
 						height={981}
-						quality={50}
 						placeholder='blur'
-						blurDataURL='/images/hero-image.png'
+						blurDataURL='/images/hero-image.webp'
 						priority
 					/>
 				</div>

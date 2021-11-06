@@ -14,15 +14,13 @@ const CallBack = () => {
 				<div className={styles.contents}>
 					<div className={styles.backgroundImage}>
 						<Image
-							src='/images/CallBack-image.png'
+							src='/images/CallBack-image.webp'
 							alt='image background component'
 							width={1920}
 							height={335}
-							quality={50}
-							priority
 							layout='fixed'
 							placeholder='blur'
-							blurDataURL='/images/CallBack-image.png'
+							blurDataURL='/images/CallBack-image.webp'
 						/>
 					</div>
 					<div className={styles.content}>

@@ -21,7 +21,7 @@ const Activity = () => {
 					<CardList>
 						<Card
 							type='activity'
-							src='/images/activity 1.png'
+							src='/images/activity 1.webp'
 							width={313}
 							height={255}
 							alt='sasana activity'
@@ -35,7 +35,7 @@ const Activity = () => {
 						/>
 						<Card
 							type='activity'
-							src='/images/activity 2.png'
+							src='/images/activity 2.webp'
 							width={313}
 							height={255}
 							alt='sasana activity'
@@ -50,7 +50,7 @@ const Activity = () => {
 						/>
 						<Card
 							type='activity'
-							src='/images/activity 3.png'
+							src='/images/activity 3.webp'
 							width={313}
 							height={255}
 							alt='sasana activity'

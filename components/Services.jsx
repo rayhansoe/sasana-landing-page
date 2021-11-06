@@ -16,7 +16,7 @@ const Services = () => {
 					</p>
 					<CardList>
 						<Card
-							src='/images/LOGO MARKETING STUDIO FINAL FIX-01 1.png'
+							src='/images/LOGO MARKETING STUDIO FINAL FIX-01 1.webp'
 							width={276}
 							height={138}
 							alt='logo sasana marketing studio'
@@ -27,7 +27,7 @@ const Services = () => {
 							href='#'
 						/>
 						<Card
-							src='/images/logo empowering-01 1.png'
+							src='/images/logo empowering-01 1.webp'
 							width={293}
 							height={145}
 							alt='logo sasana empowering'
@@ -38,7 +38,7 @@ const Services = () => {
 							layout='active'
 						/>
 						<Card
-							src='/images/LOGO SASANA DESIGN STUDIO-01.png'
+							src='/images/LOGO SASANA DESIGN STUDIO-01.webp'
 							width={236}
 							height={81}
 							alt='logo sasana design studio'

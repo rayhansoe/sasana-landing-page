@@ -24,15 +24,15 @@ const CourseSection = () => {
 						<div className={styles.card}>
 							<div className={styles.image}>
 								<Image
-									src='/images/COVER EVENT FOR WEB-02.png'
+									src='/images/COVER EVENT FOR WEB-02.webp'
 									alt='thumbnail sasana tokopedia course'
 									layout='fill'
 									placeholder='blur'
-									blurDataURL='/images/COVER EVENT FOR WEB-02.png'
+									blurDataURL='/images/COVER EVENT FOR WEB-02.webp'
 								/>
 							</div>
 							<div className={styles.rating}>
-								<Image src='/images/Rating.png' width={152} height={28} alt='score' />
+								<Image src='/images/Rating.webp' width={152} height={28} alt='score' />
 								<p className={styles.score}>4.85/5</p>
 							</div>
 							<h5 className={styles.headingX5}>Marketplace Hack : Tokopedia</h5>
@@ -81,18 +81,18 @@ const CourseSection = () => {
 						<div className={styles.card}>
 							<div className={styles.image}>
 								<Image
-									src='/images/COVER EVENT FOR WEB-03.png'
+									src='/images/COVER EVENT FOR WEB-03.webp'
 									alt='thumbnail sasana shopee course'
 									layout='fill'
 									placeholder='blur'
-									blurDataURL='/images/COVER EVENT FOR WEB-03.png'
+									blurDataURL='/images/COVER EVENT FOR WEB-03.webp'
 								/>
 							</div>
 							<div className={styles.rating}>
 								<Image
 									placeholder='blur'
-									blurDataURL='/images/Rating 5.png'
-									src='/images/Rating 5.png'
+									blurDataURL='/images/Rating 5.webp'
+									src='/images/Rating 5.webp'
 									width={152}
 									height={28}
 									alt='score'
@@ -146,18 +146,18 @@ const CourseSection = () => {
 							<div className={styles.image}>
 								<div className={styles.info}>BELUM TERSEDIA</div>
 								<Image
-									src='/images/COVER EVENT FOR WEB-01.png'
+									src='/images/COVER EVENT FOR WEB-01.webp'
 									alt='thumbnail digital marketing course'
 									layout='fill'
 									placeholder='blur'
-									blurDataURL='/images/COVER EVENT FOR WEB-01.png'
+									blurDataURL='/images/COVER EVENT FOR WEB-01.webp'
 								/>
 							</div>
 							<div className={styles.rating}>
 								<Image
 									placeholder='blur'
-									blurDataURL='/images/Rating 0.png'
-									src='/images/Rating 0.png'
+									blurDataURL='/images/Rating 0.webp'
+									src='/images/Rating 0.webp'
 									width='152px'
 									height='28px'
 									alt='score'

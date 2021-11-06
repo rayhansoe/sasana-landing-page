@@ -39,8 +39,6 @@ const Footer = () => {
 												<Image
 													src='/icon/ant-design_instagram-filled.svg'
 													alt='instagram icon'
-													placeholder='blur'
-													blurDataURL='/icon/ant-design_instagram-filled.svg'
 													width={24}
 													height={24}
 												/>
@@ -53,8 +51,6 @@ const Footer = () => {
 												<Image
 													src='/icon/akar-icons_linkedin-fill.svg'
 													alt='linkedin icon'
-													placeholder='blur'
-													blurDataURL='/icon/akar-icons_linkedin-fill.svg'
 													width={24}
 													height={24}
 												/>
@@ -67,8 +63,6 @@ const Footer = () => {
 												<Image
 													src='/icon/clarity_email-solid.svg'
 													alt='email icon'
-													placeholder='blur'
-													blurDataURL='/icon/clarity_email-solid.svg'
 													width={24}
 													height={24}
 												/>
@@ -81,8 +75,6 @@ const Footer = () => {
 												<Image
 													src='/icon/brandico_facebook-rect.svg'
 													alt='facebook icon'
-													placeholder='blur'
-													blurDataURL='/icon/brandico_facebook-rect.svg'
 													width={24}
 													height={24}
 												/>

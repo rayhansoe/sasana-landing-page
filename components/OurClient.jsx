@@ -28,10 +28,10 @@ const OurClient = () => {
 							<Image
 								layout='fixed'
 								priority
-								src='/images/Logo_of_the_Ministry_of_Maritime_Affairs_and_Fisheries_of_the_Republic_of_Indonesia.png'
+								src='/images/Logo_of_the_Ministry_of_Maritime_Affairs_and_Fisheries_of_the_Republic_of_Indonesia.webp'
 								alt='logo client'
 								placeholder='blur'
-								blurDataURL='/images/Logo_of_the_Ministry_of_Maritime_Affairs_and_Fisheries_of_the_Republic_of_Indonesia.png'
+								blurDataURL='/images/Logo_of_the_Ministry_of_Maritime_Affairs_and_Fisheries_of_the_Republic_of_Indonesia.webp'
 								width={110}
 								height={114}
 							/>
@@ -40,10 +40,10 @@ const OurClient = () => {
 							<Image
 								layout='fixed'
 								priority
-								src='/images/1200px-Pegadaian_logo_(2013).png'
+								src='/images/1200px-Pegadaian_logo_(2013).webp'
 								alt='logo client'
 								placeholder='blur'
-								blurDataURL='/images/1200px-Pegadaian_logo_(2013).png'
+								blurDataURL='/images/1200px-Pegadaian_logo_(2013).webp'
 								width={146}
 								height={76}
 							/>
@@ -52,10 +52,10 @@ const OurClient = () => {
 							<Image
 								layout='fixed'
 								priority
-								src='/images/adetex 1.png'
+								src='/images/adetex 1.webp'
 								alt='logo client'
 								placeholder='blur'
-								blurDataURL='/images/adetex 1.png'
+								blurDataURL='/images/adetex 1.webp'
 								width={136}
 								height={55}
 							/>
@@ -64,10 +64,10 @@ const OurClient = () => {
 							<Image
 								layout='fixed'
 								priority
-								src='/images/murata 1.png'
+								src='/images/murata 1.webp'
 								alt='logo client'
 								placeholder='blur'
-								blurDataURL='/images/murata 1.png'
+								blurDataURL='/images/murata 1.webp'
 								width={134}
 								height={46}
 							/>
@@ -76,10 +76,10 @@ const OurClient = () => {
 							<Image
 								layout='fixed'
 								priority
-								src='/images/KMC_373266 1.png'
+								src='/images/KMC_373266 1.webp'
 								alt='logo client'
 								placeholder='blur'
-								blurDataURL='/images/KMC_373266 1.png'
+								blurDataURL='/images/KMC_373266 1.webp'
 								width={129}
 								height={86}
 							/>
@@ -88,10 +88,10 @@ const OurClient = () => {
 							<Image
 								layout='fixed'
 								priority
-								src='/images/marwah-logo 1.png'
+								src='/images/marwah-logo 1.webp'
 								alt='logo client'
 								placeholder='blur'
-								blurDataURL='/images/marwah-logo 1.png'
+								blurDataURL='/images/marwah-logo 1.webp'
 								width={150}
 								height={150}
 							/>

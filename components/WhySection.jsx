@@ -18,11 +18,11 @@ const WhySection = () => {
 					<div className={styles.whyContent}>
 						<div className={styles.image}>
 							<Image
-								src='/images/Image Carousel.png'
+								src='/images/Image Carousel.webp'
 								alt='image carousel placeholder'
 								layout='fill'
 								placeholder='blur'
-								blurDataURL='/images/Image Carousel.png'
+								blurDataURL='/images/Image Carousel.webp'
 							/>
 						</div>
 						<div className={styles.contents}>
