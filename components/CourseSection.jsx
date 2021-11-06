@@ -27,6 +27,8 @@ const CourseSection = () => {
 									src='/images/COVER EVENT FOR WEB-02.png'
 									alt='thumbnail sasana tokopedia course'
 									layout='fill'
+									placeholder='blur'
+									blurDataURL='/images/COVER EVENT FOR WEB-02.png'
 								/>
 							</div>
 							<div className={styles.rating}>
@@ -37,19 +39,37 @@ const CourseSection = () => {
 							<div className={styles.courseDetail}>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='clock icon' src='/icon/clock.svg' />
+										<Image
+											layout='fill'
+											placeholder='blur'
+											blurDataURL='/icon/clock.svg'
+											alt='clock icon'
+											src='/icon/clock.svg'
+										/>
 									</div>
 									<p className={styles.textLight}>27-Aug-2021 | 12.00 AM</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='map pin icon' src='/icon/map-pin.svg' />
+										<Image
+											layout='fill'
+											alt='map pin icon'
+											placeholder='blur'
+											blurDataURL='/icon/map-pin.svg'
+											src='/icon/map-pin.svg'
+										/>
 									</div>
 									<p className={styles.textLight}>UDEMY</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='sasana icon' src='/icon/Frame 49.png' />
+										<Image
+											layout='fill'
+											alt='sasana icon'
+											placeholder='blur'
+											blurDataURL='/icon/Frame 49.png'
+											src='/icon/Frame 49.png'
+										/>
 									</div>
 									<p className={styles.textLight}>By Sasana Digital</p>
 								</div>
@@ -64,29 +84,56 @@ const CourseSection = () => {
 									src='/images/COVER EVENT FOR WEB-03.png'
 									alt='thumbnail sasana shopee course'
 									layout='fill'
+									placeholder='blur'
+									blurDataURL='/images/COVER EVENT FOR WEB-03.png'
 								/>
 							</div>
 							<div className={styles.rating}>
-								<Image src='/images/Rating 5.png' width={152} height={28} alt='score' />
+								<Image
+									placeholder='blur'
+									blurDataURL='/images/Rating 5.png'
+									src='/images/Rating 5.png'
+									width={152}
+									height={28}
+									alt='score'
+								/>
 								<p className={styles.score}>5/5</p>
 							</div>
 							<h5 className={styles.headingX5}>Marketplace Hack : Shopee</h5>
 							<div className={styles.courseDetail}>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='clock icon' src='/icon/clock.svg' />
+										<Image
+											layout='fill'
+											placeholder='blur'
+											blurDataURL='/icon/clock.svg'
+											alt='clock icon'
+											src='/icon/clock.svg'
+										/>
 									</div>
 									<p className={styles.textLight}>27-Aug-2021 | 12.00 AM</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='map pin icon' src='/icon/map-pin.svg' />
+										<Image
+											layout='fill'
+											alt='map pin icon'
+											placeholder='blur'
+											blurDataURL='/icon/map-pin.svg'
+											src='/icon/map-pin.svg'
+										/>
 									</div>
 									<p className={styles.textLight}>UDEMY</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='sasana icon' src='/icon/Frame 49.png' />
+										<Image
+											layout='fill'
+											alt='sasana icon'
+											placeholder='blur'
+											blurDataURL='/icon/Frame 49.png'
+											src='/icon/Frame 49.png'
+										/>
 									</div>
 									<p className={styles.textLight}>By Sasana Digital</p>
 								</div>
@@ -102,29 +149,56 @@ const CourseSection = () => {
 									src='/images/COVER EVENT FOR WEB-01.png'
 									alt='thumbnail digital marketing course'
 									layout='fill'
+									placeholder='blur'
+									blurDataURL='/images/COVER EVENT FOR WEB-01.png'
 								/>
 							</div>
 							<div className={styles.rating}>
-								<Image src='/images/Rating 0.png' width='152px' height='28px' alt='score' />
+								<Image
+									placeholder='blur'
+									blurDataURL='/images/Rating 0.png'
+									src='/images/Rating 0.png'
+									width='152px'
+									height='28px'
+									alt='score'
+								/>
 								<p className={styles.score}>0</p>
 							</div>
 							<h5 className={styles.headingX5}>Digital Marketing untuk Bisnis UMKM</h5>
 							<div className={styles.courseDetail}>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='clock icon' src='/icon/clock.svg' />
+										<Image
+											layout='fill'
+											placeholder='blur'
+											blurDataURL='/icon/clock.svg'
+											alt='clock icon'
+											src='/icon/clock.svg'
+										/>
 									</div>
 									<p className={styles.textLight}>27-Aug-2021 | 12.00 AM</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='map pin icon' src='/icon/map-pin.svg' />
+										<Image
+											layout='fill'
+											alt='map pin icon'
+											placeholder='blur'
+											blurDataURL='/icon/map-pin.svg'
+											src='/icon/map-pin.svg'
+										/>
 									</div>
 									<p className={styles.textLight}>UDEMY</p>
 								</div>
 								<div className={styles.detail}>
 									<div className={styles.iconWrapper}>
-										<Image layout='fill' alt='sasana icon' src='/icon/Frame 49.png' />
+										<Image
+											layout='fill'
+											alt='sasana icon'
+											placeholder='blur'
+											blurDataURL='/icon/Frame 49.png'
+											src='/icon/Frame 49.png'
+										/>
 									</div>
 									<p className={styles.textLight}>By Sasana Digital</p>
 								</div>

@@ -10,7 +10,7 @@ const Card = ({ src, width, height, alt, href, service, title, text, layout, typ
 			{type === 'activity' ? (
 				<div className={`${styles.card} ${layout && styles.active} ${type && styles.activity}`}>
 					<div className={styles.image}>
-						<Image src={src} alt={alt} layout='fill' />
+						<Image src={src} alt={alt} layout='fill' placeholder='blur' blurDataURL={src} />
 					</div>
 					<div className={styles.desc}>
 						<h5 className={styles.headingX5}>{title}</h5>
@@ -20,7 +20,14 @@ const Card = ({ src, width, height, alt, href, service, title, text, layout, typ
 			) : (
 				<div className={`${styles.card} ${layout && styles.active}`}>
 					<div className={styles.imageContainer}>
-						<Image width={width} height={height} src={src} alt={alt} />
+						<Image
+							width={width}
+							height={height}
+							src={src}
+							alt={alt}
+							placeholder='blur'
+							blurDataURL={src}
+						/>
 					</div>
 					<h5 className={styles.headingX5}>{title}</h5>
 					<p className={styles.myText}>{text}</p>

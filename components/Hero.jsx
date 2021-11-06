@@ -22,7 +22,15 @@ export default function Hero() {
 					<Button href='#'>Pelajari Selengkapnya ️</Button>
 				</div>
 				<div className={styles.rightContent}>
-					<Image src='/images/hero-image.png' alt='hero image' width={961} height={981} priority />
+					<Image
+						src='/images/hero-image.png'
+						placeholder='blur'
+						blurDataURL='/images/hero-image.png'
+						alt='hero image'
+						width={961}
+						height={981}
+						priority
+					/>
 				</div>
 			</Wrapper>
 		</section>

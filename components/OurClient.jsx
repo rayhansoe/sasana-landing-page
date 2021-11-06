@@ -30,6 +30,8 @@ const OurClient = () => {
 								priority
 								src='/images/Logo_of_the_Ministry_of_Maritime_Affairs_and_Fisheries_of_the_Republic_of_Indonesia.png'
 								alt='logo client'
+								placeholder='blur'
+								blurDataURL='/images/Logo_of_the_Ministry_of_Maritime_Affairs_and_Fisheries_of_the_Republic_of_Indonesia.png'
 								width={110}
 								height={114}
 							/>
@@ -40,6 +42,8 @@ const OurClient = () => {
 								priority
 								src='/images/1200px-Pegadaian_logo_(2013).png'
 								alt='logo client'
+								placeholder='blur'
+								blurDataURL='/images/1200px-Pegadaian_logo_(2013).png'
 								width={146}
 								height={76}
 							/>
@@ -50,6 +54,8 @@ const OurClient = () => {
 								priority
 								src='/images/adetex 1.png'
 								alt='logo client'
+								placeholder='blur'
+								blurDataURL='/images/adetex 1.png'
 								width={136}
 								height={55}
 							/>
@@ -60,6 +66,8 @@ const OurClient = () => {
 								priority
 								src='/images/murata 1.png'
 								alt='logo client'
+								placeholder='blur'
+								blurDataURL='/images/murata 1.png'
 								width={134}
 								height={46}
 							/>
@@ -70,6 +78,8 @@ const OurClient = () => {
 								priority
 								src='/images/KMC_373266 1.png'
 								alt='logo client'
+								placeholder='blur'
+								blurDataURL='/images/KMC_373266 1.png'
 								width={129}
 								height={86}
 							/>
@@ -80,6 +90,8 @@ const OurClient = () => {
 								priority
 								src='/images/marwah-logo 1.png'
 								alt='logo client'
+								placeholder='blur'
+								blurDataURL='/images/marwah-logo 1.png'
 								width={150}
 								height={150}
 							/>

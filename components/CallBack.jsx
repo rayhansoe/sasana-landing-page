@@ -20,6 +20,8 @@ const CallBack = () => {
 							height={335}
 							priority
 							layout='fixed'
+							placeholder='blur'
+							blurDataURL='/images/Segera mulai perjalanan bisnis anda.png'
 						/>
 					</div>
 					<div className={styles.content}>

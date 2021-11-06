@@ -21,6 +21,8 @@ const WhySection = () => {
 								src='/images/Image Carousel.png'
 								alt='image carousel placeholder'
 								layout='fill'
+								placeholder='blur'
+								blurDataURL='/images/Image Carousel.png'
 							/>
 						</div>
 						<div className={styles.contents}>
