@@ -34,6 +34,15 @@ const Button = ({ href, children, type, color }) => {
 							alt='right arrow'
 							width={16}
 							height={16}
+							placeholder='blur'
+							blurDataURL={
+								type === 'text' && !color
+									? '/icon/right-arrow-v2.svg'
+									: color === '#fff'
+									? '/icon/right-arrow-v3.svg'
+									: '/icon/right-arrow.svg'
+							}
+							priority
 						/>
 					)}
 				</a>
