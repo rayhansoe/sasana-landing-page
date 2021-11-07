@@ -2,4 +2,15 @@
 	display: flex;
 	justify-content: space-between;
 	gap: 20px;
+
+	// display: grid;
+	// align-items: center;
+	// grid-template-columns: repeat(auto-fill, minmax(355px, 1fr));
+	// gap: 20px;
+}
+
+@media only screen and (max-width: 1150px) {
+	.cardList {
+		flex-direction: column;
+	}
 }

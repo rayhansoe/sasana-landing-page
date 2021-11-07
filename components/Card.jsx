@@ -1,14 +1,23 @@
+import { useState } from 'react'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import styles from '../styles/Card.module.scss'
 
 const Button = dynamic(() => import('./Button'))
 
-const Card = ({ src, width, height, alt, href, service, title, text, layout, type }) => {
+const Card = ({ src, width, height, alt, href, service, title, text, type }) => {
+	const [isHover, setIsHover] = useState(() => false)
+
+	const handleMouseEnter = () => setIsHover(() => true)
+	const handleMouseLeave = () => setIsHover(() => false)
+
 	return (
 		<>
 			{type === 'activity' ? (
-				<div className={`${styles.card} ${layout && styles.active} ${type && styles.activity}`}>
+				<div
+					className={`${styles.card} ${type && styles.activity}`}
+					onMouseEnter={handleMouseEnter}
+					onMouseLeave={handleMouseLeave}>
 					<div className={styles.image}>
 						<Image src={src} alt={alt} layout='fill' placeholder='blur' blurDataURL={src} />
 					</div>
@@ -18,7 +27,10 @@ const Card = ({ src, width, height, alt, href, service, title, text, layout, typ
 					</div>
 				</div>
 			) : (
-				<div className={`${styles.card} ${layout && styles.active}`}>
+				<div
+					className={styles.card}
+					onMouseEnter={handleMouseEnter}
+					onMouseLeave={handleMouseLeave}>
 					<div className={styles.imageContainer}>
 						<Image
 							width={width}
@@ -34,7 +46,7 @@ const Card = ({ src, width, height, alt, href, service, title, text, layout, typ
 					<div className={styles.info}>
 						<h6 className={styles.headingX6}>Layanan yang Tersedia:</h6>
 						<p className={`${styles.myText} ${styles.v2}`}>{service}</p>
-						<Button href={href} type='text' color={layout && '#fff'}>
+						<Button href={href} type='text' color={isHover ? '#fff' : false}>
 							Selengkapnya
 						</Button>
 					</div>

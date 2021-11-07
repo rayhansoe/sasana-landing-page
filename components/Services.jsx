@@ -35,7 +35,7 @@ const Services = () => {
 							text='Tingkatkan kinerja perusahaan melalui layanan Digital Solution untuk Produktivitas Bisnis yang berkelanjutan.'
 							service='Konsultasi | Training'
 							href='#'
-							layout='active'
+							// layout='active'
 						/>
 						<Card
 							src='/images/LOGO SASANA DESIGN STUDIO-01.webp'

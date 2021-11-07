@@ -5,7 +5,19 @@
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
+	width: 355px;
 	gap: 20px;
+
+	&:hover {
+		background-color: #f46f4f;
+		border: 1px solid #f46f4f;
+		box-shadow: 0px 0px 16px #f36f50;
+		.headingX5,
+		.headingX6,
+		.myText {
+			color: #fff;
+		}
+	}
 }
 
 .info {

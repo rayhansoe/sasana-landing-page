@@ -14,6 +14,8 @@ const Wrapper = ({ children, type }) => {
 					? styles.clientWrapper
 					: type === 'servicesWrapper'
 					? styles.servicesWrapper
+					: type === 'hero'
+					? styles.hero
 					: ''
 			}`}>
 			{children}

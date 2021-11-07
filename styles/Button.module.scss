@@ -1,7 +1,6 @@
 .button {
 	z-index: 5;
 	background-color: #f46f4f;
-	padding: 21px 15px;
 	border-radius: 4px;
 	box-shadow: 0px 0px 20px #f36f50;
 	cursor: pointer;
@@ -10,6 +9,7 @@
 .link {
 	color: #fff;
 	display: flex;
+	padding: 21px 15px;
 	font-size: 18px;
 	font-weight: 700;
 	display: flex;
@@ -27,9 +27,18 @@
 	box-shadow: unset;
 	padding: unset;
 	width: fit-content;
+
+	.hovered {
+		.link {
+			color: #fff;
+			padding: unset;
+		}
+	}
+
 	.link {
 		width: fit-content;
 		color: #f46f4f;
+		padding: unset;
 	}
 }
 
@@ -37,7 +46,6 @@
 	background-color: unset;
 	box-shadow: unset;
 	border: 1px solid #f46f4f;
-	padding: 12px 16px;
 	border-radius: 8px;
 
 	.link {
@@ -47,19 +55,35 @@
 		font-size: 16px;
 		line-height: 150%;
 	}
+
+	&:hover {
+		background-color: #f46f4f;
+		box-shadow: 0px 0px 20px #f36f50;
+
+		.link {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
 }
 
 .course {
 	box-shadow: unset;
-	padding: 10px 24px;
 	margin-left: 20px;
 	margin-bottom: 20px;
+
+	&:hover {
+		box-shadow: 0px 0px 20px #f36f50;
+
+		.link {
+			text-decoration: none;
+		}
+	}
 }
 
 .disable {
 	box-shadow: unset;
 	background-color: #c7c7c7;
-	padding: 10px 24px;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	cursor: not-allowed;
@@ -71,5 +95,11 @@
 		&:hover {
 			text-decoration: none;
 		}
+	}
+}
+
+.hovered {
+	.link {
+		color: #fff;
 	}
 }

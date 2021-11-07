@@ -46,6 +46,11 @@
 	overflow: hidden;
 	gap: 24px;
 	width: 353px;
+
+	&:hover {
+		box-shadow: 0px 0px 16px #753a2c6e;
+		border: 1px solid #f4704f44;
+	}
 }
 
 .image {

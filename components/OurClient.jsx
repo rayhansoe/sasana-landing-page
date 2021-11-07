@@ -14,15 +14,14 @@ const OurClient = () => {
 					tepat dalam bertransformasi.
 				</p>
 				<div className={styles.carousel}>
-					<Image
-						className={styles.arrow}
-						priority
-						layout='fixed'
-						src='/icon/arrow-square-left.svg'
-						alt='arrow square left'
-						width={50}
-						height={50}
-					/>
+					<div className={styles.arrow}>
+						<Image
+							priority
+							layout='fill'
+							src='/icon/arrow-square-left.svg'
+							alt='arrow square left'
+						/>
+					</div>
 					<div className={styles.cardList}>
 						<div className={styles.card}>
 							<Image
@@ -97,15 +96,14 @@ const OurClient = () => {
 							/>
 						</div>
 					</div>
-					<Image
-						className={styles.arrow}
-						priority
-						layout='fixed'
-						src='/icon/arrow-square-right.svg'
-						alt='arrow square right'
-						width={50}
-						height={50}
-					/>
+					<div className={styles.arrow}>
+						<Image
+							priority
+							layout='fill'
+							src='/icon/arrow-square-right.svg'
+							alt='arrow square right'
+						/>
+					</div>
 				</div>
 				<div className={styles.indicator}>
 					<Image src='/icon/Rectangle-104.svg' alt='indicator carousel' width={49} height={8} />

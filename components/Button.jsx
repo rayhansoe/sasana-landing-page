@@ -15,10 +15,10 @@ const Button = ({ href, children, type, color }) => {
 					: type === 'disable'
 					? styles.disable
 					: ''
-			}`}>
+			} ${color === '#fff' ? styles.hovered : ''}`}>
 			<Link href={href}>
 				<a className={styles.link}>
-					<p style={{ color: `${color && color}` }}>{children}</p>
+					<p>{children}</p>
 					{type === 'outline' || type === 'course' || type === 'disable' ? (
 						''
 					) : (

@@ -8,7 +8,7 @@ const Button = dynamic(() => import('./Button'))
 export default function Hero() {
 	return (
 		<section className={styles.section}>
-			<Wrapper>
+			<Wrapper type='hero'>
 				<div className={styles.leftContent}>
 					<h1 className={styles.headingX1}>
 						Akselerasikan Bisnis Anda Melalui Pemanfaatan Teknologi Digital

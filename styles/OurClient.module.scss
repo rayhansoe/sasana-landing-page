@@ -19,6 +19,10 @@
 	justify-content: center;
 	flex-grow: 0;
 	cursor: pointer;
+
+	&:hover {
+		box-shadow: 0px 0px 20px #acacac8a;
+	}
 }
 
 .carousel {
@@ -51,10 +55,11 @@
 }
 
 .arrow {
-	overflow: visible;
-	position: absolute;
-	width: 24px;
-	height: 24px;
+	position: relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 12px;
+	box-sizing: border-box;
 	cursor: pointer;
 }
 
@@ -65,5 +70,8 @@
 
 	& > * {
 		cursor: pointer;
+		&:hover {
+			box-shadow: 0px 0px 8px #f36e5091;
+		}
 	}
 }
