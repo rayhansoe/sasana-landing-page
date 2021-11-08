@@ -9,7 +9,7 @@ export default function Hero() {
 	return (
 		<section className={styles.section}>
 			<Wrapper type='hero'>
-				<div className={styles.leftContent}>
+				<div data-aos='fade-right' className={styles.leftContent}>
 					<h1 className={styles.headingX1}>
 						Akselerasikan Bisnis Anda Melalui Pemanfaatan Teknologi Digital
 					</h1>

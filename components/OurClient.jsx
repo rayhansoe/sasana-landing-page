@@ -13,7 +13,7 @@ const OurClient = () => {
 					Klien Nasional hingga Internasional telah mempercayakan kami <br /> sebagai partner yang
 					tepat dalam bertransformasi.
 				</p>
-				<div className={styles.carousel}>
+				<div data-aos='fade-up' className={styles.carousel}>
 					<div className={styles.arrow}>
 						<Image
 							priority
@@ -105,7 +105,7 @@ const OurClient = () => {
 						/>
 					</div>
 				</div>
-				<div className={styles.indicator}>
+				<div data-aos='fade' className={styles.indicator}>
 					<Image src='/icon/Rectangle-104.svg' alt='indicator carousel' width={49} height={8} />
 					<Image src='/icon/Rectangle-105.svg' alt='indicator carousel' width={49} height={8} />
 					<Image src='/icon/Rectangle-105.svg' alt='indicator carousel' width={49} height={8} />

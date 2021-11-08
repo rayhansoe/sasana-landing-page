@@ -16,7 +16,7 @@ const WhySection = () => {
 						</p>
 					</div>
 					<div className={styles.whyContent}>
-						<div className={styles.image}>
+						<div data-aos='fade-right' className={styles.image}>
 							<Image
 								src='/images/Image Carousel.webp'
 								alt='image carousel placeholder'
@@ -25,7 +25,7 @@ const WhySection = () => {
 								blurDataURL='/images/Image Carousel.webp'
 							/>
 						</div>
-						<div className={styles.contents}>
+						<div data-aos='fade-left' className={styles.contents}>
 							<div className={styles.desc}>
 								<h5 className={styles.headingX5}>One Stop Digital Solution</h5>
 								<p className={styles.myText}>

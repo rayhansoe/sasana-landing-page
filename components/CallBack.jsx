@@ -23,7 +23,7 @@ const CallBack = () => {
 							blurDataURL='/images/CallBack-image.webp'
 						/>
 					</div>
-					<div className={styles.content}>
+					<div data-aos='fade-up' className={styles.content}>
 						<div className={styles.leftContent}>
 							<h2 className={styles.headingX2}>
 								Segera mulai perjalanan bisnis Anda dalam bertransformasi.
