@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import dynamic from 'next/dynamic'
+import Head from 'next/head'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -18,6 +19,9 @@ export default function Home() {
 
 	return (
 		<>
+			<Head>
+				<title>Sasana Solusi Digital | Landing Page by Rayhan Soe</title>
+			</Head>
 			<Hero />
 			<Services />
 			<WhySection />

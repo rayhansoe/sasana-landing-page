@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
+import { useRouter } from 'next/router'
 
 import styles from '../styles/NavBar.module.scss'
 
@@ -13,6 +14,8 @@ const NavBar = () => {
 
 	const openNavBar = () => setIsOpen(curr => !curr)
 	const closeNavBar = () => setIsOpen(curr => !curr)
+
+	const router = useRouter()
 
 	return (
 		<div className={styles.navbar}>
@@ -50,7 +53,7 @@ const NavBar = () => {
 					/>
 
 					<ul className={styles.navMenu}>
-						<li className={`${styles.list} ${styles.active}`}>
+						<li className={`${styles.list} ${router.pathname === '/' ? styles.active : ''}`}>
 							<Link href='/'>
 								<a className={styles.link}>Beranda</a>
 							</Link>
@@ -70,9 +73,9 @@ const NavBar = () => {
 								<a className={styles.link}>Unduhan</a>
 							</Link>
 						</li>
-						<li className={styles.list}>
-							<Link href='#'>
-								<a className={styles.link}>Kontak</a>
+						<li className={`${styles.list} ${router.pathname === '/posts' ? styles.active : ''}`}>
+							<Link href='/posts'>
+								<a className={styles.link}>Posts</a>
 							</Link>
 						</li>
 						<li className={`${styles.list} ${styles.menuCta}`}>

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import styles from '../styles/Card.module.scss'
 
@@ -25,6 +26,21 @@ const Card = ({ src, width, height, alt, href, service, title, text, type }) => 
 						<h5 className={styles.headingX5}>{title}</h5>
 						<p className={styles.myText}>{text}</p>
 					</div>
+				</div>
+			) : type === 'post' ? (
+				<div
+					className={`${styles.card} ${styles.post}`}
+					onMouseEnter={handleMouseEnter}
+					onMouseLeave={handleMouseLeave}>
+					<Link href={href}>
+						<a className={styles.link}>
+							<h5 className={styles.headingX5}>{title}</h5>
+						</a>
+					</Link>
+					<div className={styles.data} dangerouslySetInnerHTML={{ __html: text }}></div>
+					<Link href={href}>
+						<a className={styles.link}>See more</a>
+					</Link>
 				</div>
 			) : (
 				<div
