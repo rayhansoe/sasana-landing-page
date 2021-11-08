@@ -75,7 +75,7 @@ const NavBar = () => {
 						</li>
 						<li className={`${styles.list} ${router.pathname === '/posts' ? styles.active : ''}`}>
 							<Link href='/posts'>
-								<a className={styles.link}>Posts</a>
+								<a className={styles.link}>Blogs</a>
 							</Link>
 						</li>
 						<li className={`${styles.list} ${styles.menuCta}`}>
